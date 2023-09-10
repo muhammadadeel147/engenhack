@@ -1,0 +1,54 @@
+/* HomeSection.css */
+.home-section {
+    background-color: #f2f2f2; /* Background color for the home section */
+    padding: 60px 40px;
+    height: 60vh;
+  }
+  
+  .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+  }
+  
+  .home-left {
+    flex: 1;
+    max-width: 45%; /* Adjust as needed */
+    margin-left: 5%;
+    
+  }
+  
+  .home-title {
+    font-size: 76px;
+    font-weight: bold;
+        
+    color: #333; /* Text color for the title */
+  }
+  
+  .home-info {
+    font-size: 28px;
+    color: #555; /* Text color for the information */
+    margin-top: 20px;
+  }
+  
+  .home-right {
+    flex: 1;
+    max-width: 45%; /* Adjust as needed */
+  }
+  
+  .home-right img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .home-left, .home-right {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
